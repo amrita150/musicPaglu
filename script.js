@@ -46,7 +46,7 @@ const songs = [
   },
   {
     title: "Jugraafiya",
-    image: "photos/Jugrafiya.jpg",
+    image: "photos/jugrafiya.jpg",
     audio: "Music/Jugraafiya.mp3"
   }
 ];
