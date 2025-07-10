@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPaglu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="mycon">
+            <img src="./photos/logo.png" alt="logo image" width="65px" height="58px">
+        <h1 class="heading">MusicPaglu</h1>
+        </div>
+       <div class="search-container">
+            <i class="fas fa-search"></i>
+            <input type="search" placeholder="Search Song" id="srch">
+       </div>
+    </header>
+    <main>
+        <section class="songs-grid">
+
+        </section>
+    </main>
+    <footer class="music-foo">
+        <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+         </div>
+        <div class="song-det">
+            <div class="song-info">
+            <img src="photos/heather.jpg"  id="footer-img" class="footer-cover" alt="Cover">
+         <div>
+            <h3 id="footer-title">ManChild</h3>
+         </div>
+        </div>
+        <div class="control">
+            <img src="./photos/shuffle.png" class="icon-btn" alt="Shuffle" id="shufflebtn">
+            <img src="./photos/play.png" class="icon-btn" alt="Play" id="playPauseBtn">
+            <img src="./photos/like.png" class="icon-btn" alt="Like" id="likeBtn">
+        </div>
+        </div>
+    </footer>
+     
+    <audio id="audioPlayer"></audio>
+</body>
+</html>
